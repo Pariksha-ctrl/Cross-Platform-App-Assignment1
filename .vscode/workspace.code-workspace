@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "Cross-Platform-Assignment1",
+			"path": "..\\..\\..\\Assignment1CP\\Cross-Platform-Assignment1"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
