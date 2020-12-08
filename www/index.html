@@ -4,15 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <!--
-        Customize this policy to fit your own app's needs. For more guidance, see:
-            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
-        Some notes:
-            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
-            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
-            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
-                * Enable inline JS: add 'unsafe-inline' to default-src
-        -->
+
     <meta http-equiv="Content-Security-Policy"
         content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
     <meta name="format-detection" content="telephone=no">
@@ -35,17 +27,37 @@
         <div style="text-align: center;">
             <img src="img/logo.png" class="logo_image" />
 
-            <form>
-                     <label for="text-1"></label>
-                     <input type="text" name="text-1" id="text-1" value="">
-            </form>
+            <div class="list-container">
+                <p>
+                    <label for="new-priority-task">Add Priority Task</label>
+                    <br>
+                    <input id="new-priority-task" type="text"><button>Add Task</button>
+                </p>
 
+                <h3>Priority To Do Tasks</h3>
+                <ul id="incomplete-tasks">
+                    <li><input type="checkbox"><label>Pay Rent</label><input type="text"><button
+                            class="edit">Edit</button><button class="delete">Delete</button></li>
 
+                    <li class="editMode"><input type="checkbox"><label>Check Roster</label><input type="text"
+                            value="Check Roster"><button class="edit">Edit</button><button
+                            class="delete">Delete</button>
+                    </li>
+                </ul>
 
+                <h3>Priority Completed Tasks</h3>
+                <ul id="completed-tasks">
+                    <li><input type="checkbox" checked><label>Attend Online Class</label><input type="text"><button
+                            class="edit">Edit</button><button class="delete">Delete</button></li>
+                    <li><input type="checkbox" checked><label>Attend Webinar</label><input type="text"><button
+                            class="edit">Edit</button><button class="delete">Delete</button></li>
+
+                </ul>
+            </div>
         </div>
-    </div>
-    <script src="cordova.js"></script>
-    <script src="js/index.js"></script>
+
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
 </body>
 
 </html>
