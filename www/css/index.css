@@ -59,7 +59,7 @@ h1 {
 }
 
 .event.received {
-    background-color:#4B946A;
+    background-color:#4b5e94;
     display:none;
 }
 
@@ -80,7 +80,7 @@ h1 {
 
 @media screen and (prefers-color-scheme: dark) {
     body {
-        background-image:linear-gradient(to bottom, #585858 0%, #1B1B1B 51%);
+        background-image:linear-gradient(to bottom, #04145e 0%, #1b1b1b48 51%);
     }
 }
 

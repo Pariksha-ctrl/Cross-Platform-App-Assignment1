@@ -2,6 +2,7 @@
 // See https://cordova.apache.org/docs/en/latest/cordova/events/events.html#deviceready
 document.addEventListener('deviceready', onDeviceReady, false);
 
+// function to make a device ready to open and show the features of the app
 function onDeviceReady() {
     // Cordova is now initialized. Have fun!
 
