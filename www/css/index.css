@@ -22,7 +22,7 @@ body {
 
 /* Portrait layout (default) */
 .app {
-  background-color:#6f96c9;
+  background-color:hsl(214, 43%, 64%);
 }
 
 /* Landscape layout (with min-width) */
@@ -86,7 +86,7 @@ h1 {
 }
 
 .logo_image{
-  width: 30%;
+  width: 40%;
   text-align: center;
   margin: auto;
 }
@@ -135,7 +135,7 @@ h3,
 label[for='new-priority-task'] {
 color: hsl(209, 77%, 30%);
 font-weight: 700;
-font-size: 15px;
+font-size: 20px;
 border-bottom: 2px solid #333;
 padding: 30px 10 10px;
 margin: 10;
@@ -224,7 +224,7 @@ color: #CF2323;
 /* Completed */
 #completed-tasks label {
 text-decoration: line-through;
-color: #888;
+color: hsl(120, 47%, 38%);
 }
 
 /* Edit Task */
