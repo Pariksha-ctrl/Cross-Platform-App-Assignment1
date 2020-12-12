@@ -7,7 +7,7 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color:#E4E4E4;
+    background-color:#e4e4e4;
     /* background-image:linear-gradient(to bottom, #A7A7A7 0%, #E4E4E4 51%); */
     font-family: system-ui, -apple-system, -apple-system-font, 'Segoe UI', 'Roboto', sans-serif;
     font-size:12px;
@@ -147,7 +147,7 @@ input[type="text"] {
   height: 18px;
   padding: 10px;
   border: 1px solid #ddd;
-  background: #fff;
+  background: rgb(255, 255, 255);
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
